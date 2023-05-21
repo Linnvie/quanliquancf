@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+ <decorators defaultdir="/WEB-INF/views/decorators">
+    
+    <decorator name="admin" page="admin.jsp">
+       <pattern>/quan-tri*</pattern>
+    </decorator>
+    
+     <decorator name="employee" page="employee.jsp">
+       <pattern>/nhan-vien*</pattern>
+    </decorator>
+
+	<decorator name="login" page="login.jsp">
+       <pattern>/dang-nhap</pattern>
+    </decorator>
+       
+    <decorator name="forgotpassword" page="quenmatkhau.jsp">
+       <pattern>/quen-mat-khau</pattern>
+    </decorator>
+ 
+ </decorators>
